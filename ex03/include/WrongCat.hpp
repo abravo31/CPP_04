@@ -1,44 +1,38 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Cat.hpp                                            :+:      :+:    :+:   */
+/*   WrongCat.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: abravo <abravo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: amanda <amanda@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/14 19:26:27 by amanda            #+#    #+#             */
-/*   Updated: 2023/04/24 22:36:35 by abravo           ###   ########.fr       */
+/*   Updated: 2023/04/14 22:09:01 by amanda           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef CAT_HPP
-# define CAT_HPP
+#ifndef WRONGCAT_HPP
+# define WRONGCAT_HPP
 
-# include "Animal.hpp"
-# include "Brain.hpp"
-#include <cstdio>
-#include <cstdlib>
+# include "WrongAnimal.hpp"
 
-class Cat: public Animal{
+class WrongCat: public WrongAnimal{
     public :
     
     // Constructors
-        Cat();
-        Cat(const Cat& other);
+        WrongCat();
+        WrongCat(const WrongCat& other);
     
     // Destructor
-        ~Cat();
+        ~WrongCat();
     
     // Assignement Operators
-		Cat&    operator=(const Cat &src);
+		WrongCat&   operator=(const WrongCat &src);
     
     // Methods
-        void    makeSound( void ) const;
-    
-    // Getter
-        Brain*  getBrain( void );
+        void makeSound( void ) const;
         
     private :
-        Brain* _brain; 
+
 };
 
 #endif
