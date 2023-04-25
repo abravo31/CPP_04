@@ -1,4 +1,4 @@
-NAME		=	Brain
+NAME		=	MakeSound
 
 CC			=	c++
 
@@ -30,10 +30,10 @@ OBJ			=	$(addprefix $(OBJ_DIR), $(OBJ_FILES))
 #all rule
 all: $(NAME)
 	@printf "\n"
-	@printf "$(GREEN)            ___ ___         ___    _____    _     _      ___ ___ \n$(RESET)"
-	@printf "$(GREEN) ___ _ _   |   |_  |    ___|  _|  |    _| _| |_ _| |_   |   | | |\n$(RESET)"
-	@printf "$(GREEN)| -_|_'_|  | | |_| |_  | . |  _|  |   |_ |_   _|_   _|  | | |_  |\n$(RESET)"
-	@printf "$(GREEN)|___|_,_|  |___|_____| |___|_|    |_____|  |_|   |_|    |___| |_|\n$(RESET)"
+	@printf "$(GREEN)            ___ ___       ___    _____    _     _      ___ ___ \n$(RESET)"
+	@printf "$(GREEN) ___ _ _   |   |_  |  ___|  _|  |    _| _| |_ _| |_   |   | | |\n$(RESET)"
+	@printf "$(GREEN)| -_|_'_|  | | |_  | | . |  _|  |   |_ |_   _|_   _|  | | |_  |\n$(RESET)"
+	@printf "$(GREEN)|___|_,_|  |___|___| |___|_|    |_____|  |_|   |_|    |___| |_|\n$(RESET)"
 	@printf "$(GREEN)                                                                \n$(RESET)"
 	@printf "\n"
 

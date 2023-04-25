@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Animal.hpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: abravo <abravo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: amanda <amanda@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/14 19:21:08 by amanda            #+#    #+#             */
-/*   Updated: 2023/04/24 22:36:26 by abravo           ###   ########.fr       */
+/*   Updated: 2023/04/25 12:58:37 by amanda           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ class Animal{
         Animal& operator=( const Animal& src);
     
     // Methods
-        virtual void makeSound( void ) const;
+        virtual void makeSound( void ) const = 0;
     
     // Getters
         std::string getType( void ) const;

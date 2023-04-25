@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: abravo <abravo@student.42.fr>              +#+  +:+       +#+        */
+/*   By: amanda <amanda@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/14 21:54:29 by amanda            #+#    #+#             */
-/*   Updated: 2023/04/24 22:52:13 by abravo           ###   ########.fr       */
+/*   Updated: 2023/04/25 13:05:42 by amanda           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,9 @@
 
 int main()
 {
+    // const Animal *animal = new Animal();
+	// animal->makeSound();
+    
     std::cout << std::endl;
     std::cout << "\033[34mConstructing Animal\033[0m" << std::endl;
     std::string idea[6] = {"Oh, I have a brain", "So now i can think", "Hum...I want to eat", "And, also take a nap", "...Meoww?", "I have to pee!!!"};
@@ -105,5 +108,4 @@ int main()
     std::cout << std::endl;
     
     return 0;
-
 }
